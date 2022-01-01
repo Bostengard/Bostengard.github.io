@@ -1,0 +1,105 @@
+
+.fade-in-text {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+
+    animation: fadeIn linear 4s;
+    color: #37e800;
+    text-shadow:
+            0 0 5px #37e800,
+            0 0 10px #37e800,
+            0 0 20px #37e800,
+            0 0 40px #37e800,
+            0 0 80px #37e800;
+}
+@keyframes fadeIn {
+
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.fade-in-text2 {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+    animation:
+            fadeIn2 linear 7s;
+
+
+
+
+    color: #10e314;
+    text-shadow:
+            0 0 5px #21e524,
+            0 0 10px #2bda2e,
+            0 0 20px #2bd02e,
+            0 0 40px #3bd33e,
+            0 0 80px #10e314,
+            0 0 90px #10e314;
+}
+@keyframes fadeIn2 {
+    0% {opacity:0;}
+    50% {opacity:1;}
+    51% {opacity:0;}
+    52% {opacity:0;}
+    53% {opacity:1;}
+    54% {opacity:0;}
+    60% {opacity:0;}
+    61% {opacity:1;}
+    100%{opacity:1;}
+}
+.fade-in-text3 {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+    animation: fadeIn3 linear 4s;
+    color: #37e800;
+    text-shadow:
+            0 0 5px #37e800,
+            0 0 10px #37e800,
+            0 0 20px #37e800,
+            0 0 40px #37e800,
+            0 0 80px #37e800,
+            0 0 90px #37e800;
+}
+@keyframes fadeIn3 {
+
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+.button{
+    float: right;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-style: none;
+    background-color: rgba(255, 0, 0, 0.84);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 0px;
+    cursor: pointer;
+    alignment: right;
+
+
+}
+.button3{
+    float: right;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-style: none;
+    background-color: rgb(236, 186, 16);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 0px;
+    cursor: pointer;
+    alignment: right;
+
+
+}
