@@ -13,8 +13,30 @@
             0 0 40px #37e800,
             0 0 80px #37e800;
 }
-@keyframes fadeIn {
+.topbar{
+    overflow: hidden;
+    position: fixed;
+    background-color: #070649;
+    top: 0;
+    width: 100%; /* Full width */
+}
+.topbar a{
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    float: left;
+    display: block;
+    color: #3058af;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: #3f1818;
 
+}
+.topbar a:hover {
+    color: aliceblue;
+    background-color: #00188a;
+    text-decoration: #0d08e3;
+}
+@keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
 }
@@ -22,13 +44,8 @@
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-
     animation:
             fadeIn2 linear 7s;
-
-
-
-
     color: #10e314;
     text-shadow:
             0 0 5px #21e524,
@@ -69,8 +86,6 @@
     0% {opacity:0;}
     100% {opacity:1;}
 }
-
-
 .button{
     float: right;
     border-bottom-right-radius: 8px;
@@ -84,8 +99,6 @@
     margin: 2px 0px;
     cursor: pointer;
     alignment: right;
-
-
 }
 .button3{
     float: right;
@@ -103,8 +116,6 @@
 
 
 }
-
-
 .Div1{
 
     border: 10px;
@@ -113,7 +124,6 @@
     background-color: #035fbb;
     height: 500px;
 }
-
 .Aboutme{
     text-align: center;
     color: black;

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Bostenbot</title>
+</head>
+<body style="background-color: rgb(16,20,44)">
+    <div class="topbar">
+        <a href = "../index.html">Home</a>
+        <a href = "index.html">BostenBot</a>
+    </div>
+
+    <div style="text-align: center; padding-top: 100px;">
+        <h1 class="Bostenbot"> BostenBot</h1>
+        <p class="Bostenbot2">By Bostengard</p>
+        <img class="image" src="images/BostenBotProfile.png" alt="BostenBot's Profile">
+    </div>
+    <div  style="text-align: center; padding-top: 140px">
+        <a class="inviteButton"    href="https://discord.com/api/oauth2/authorize?client_id=920602723232153661&permissions=8&scope=bot"> Invite BostenBot to your server</a>
+    </div>
+
+    <div style="text-align: center">
+        <table class="table" style="margin:auto">
+            <caption style="padding-bottom: 50px; padding-top: 200px">BostenBot Command's</caption>
+            <tr>
+                <th>Feature</th>
+                <th style="width: 75%; ">Description</th>
+                <th>Usage</th>
+            </tr>
+            <tr>
+                <th colspan="3">Help commands</th>
+            </tr>
+            <!-- 1rst help-->
+            <tr>
+                <td>Help</td>
+                <td>This command gives the user a full view of all the bot modules, and they're personalized help command</td>
+                <td><mark>?help</mark></td>
+            </tr>
+            <!-- help-user -->
+            <tr>
+            <td>User help</td>
+            <td>This command gives the user a full view of all the bot commands that doesn't require any permission</td>
+            <td><mark>?help-user</mark></td>
+        </tr>
+            <!-- help-moderation -->
+            <tr>
+                <td>Moderation help</td>
+                <td>This command gives the user a full view of all the moderation commands, this commands need permission that change for every command</td>
+                <td><mark>?help-moderation</mark></td>
+            </tr>
+            <!-- help-math -->
+            <tr>
+                <td>Math Help</td>
+                <td>This command gives the user all some possibilities of the math command</td>
+                <td><mark>?help-math</mark></td>
+            </tr>
+            <!-- help-music -->
+            <tr>
+                <td>Music Help</td>
+                <td>This command gives the user a view of all the music commands</td>
+                <td><mark>?help-music</mark></td>
+            </tr>
+            <!-- help-settings -->
+            <tr>
+                <td>Settings Help</td>
+                <td>This command gives the user a way to personalize the bot behaviour in the server, permissions required</td>
+                <td><mark>?help-settings</mark></td>
+            </tr>
+            <tr>
+                <th colspan="3">User Commands</th>
+            </tr>
+            <!-- Aboutme-->
+            <tr>
+                <td>About Me</td>
+                <td>This command gives the user an embed full of info of themselves</td>
+                <td><mark>?aboutme</mark></td>
+            </tr>
+            <!-- leaderboard -->
+            <tr>
+                <td>Server Leaderboard</td>
+                <td>This command Shows an embed with the 3 members that has send more messages in the server, and your number of messages</td>
+                <td><mark>?leaderboard</mark></td>
+            </tr>
+            <!-- serverinfo-->
+            <tr>
+                <td>Server info</td>
+                <td>This command Shows an embed with Info about the server</td>
+                <td><mark>?serverinfo</mark></td>
+            </tr>
+            <!-- Role Info-->
+            <tr>
+                <td>Role Info</td>
+                <td>This command Shows an embed with about the role mentioned (with ID)</td>
+                <td><mark>?roleinfo < id ></mark></td>
+            </tr>
+            <!-- Math user-->
+            <tr>
+                <td>Math</td>
+                <td>This command can resolve your operations with an extensive range (sin,cos to matrix,atan2)</td>
+                <td><mark>?math < operation ></mark></td>
+            </tr>
+            <!-- Reddit user-->
+            <tr>
+                <td>Reddit</td>
+                <td>This command gets reddit posts of a certain subreddit or a random one from 20 ish meme subreddits(personally chosen)</td>
+                <td><mark>?reddit < subeddit / random></mark></td>
+            </tr>
+            <!-- Music User-->
+            <tr>
+                <td>Music</td>
+                <td>This command lets you play youtube music in your vc, you can add songs to a queue, skip the current song or end the queue</td>
+                <td><mark>?music < play / skip / stop > < link ></mark></td>
+            </tr>
+            <!-- random User-->
+            <tr>
+                <td>Random</td>
+                <td>Tells you a random number between 0 and a number of your choice</td>
+                <td><mark>?random < max number ></mark></td>
+            </tr>
+            <tr>
+                <th colspan="3">Moderation Commands</th>
+            </tr>
+            <!-- Delete mod-->
+            <tr>
+                <td>Delete</td>
+                <td>Deletes a custom amount of messages (max 99)</td>
+                <td><mark>?delete < amount ></mark></td>
+            </tr>
+            <!-- Spam mod-->
+            <tr>
+                <td>Spam</td>
+                <td>Spam a custom amount of messages (max 50) (it's very slow)</td>
+                <td><mark>?spam < amount ></mark></td>
+            </tr>
+            <!-- Warn mod-->
+            <tr>
+                <td>Warn</td>
+                <td>Warns a member</td>
+                <td><mark>?warn < mention > < reason ></mark></td>
+            </tr>
+            <!-- kick mod-->
+            <tr>
+                <td>Kick</td>
+                <td>Kicks a user</td>
+                <td><mark>?kick < mention > < reason ></mark></td>
+            </tr>
+            <!-- Mute mod-->
+            <tr>
+                <td>Mute</td>
+                <td>Mutes a member (require a role named "muted"</td>
+                <td><mark>?mute < mention > < reason ></mark></td>
+            </tr>
+            <!-- Mute mod-->
+            <tr>
+                <td>Mute</td>
+                <td>Mutes a member (require a role named "muted")</td>
+                <td><mark>?mute < mention > < reason ></mark></td>
+            </tr>
+            <!-- unmute mod-->
+            <tr>
+                <td>Unmute</td>
+                <td>Unmutes a member (require a role named "muted")</td>
+                <td><mark>?unmute < mention ></mark></td>
+            </tr>
+            <!-- Ban mod-->
+            <tr>
+                <td>Ban</td>
+                <td>Bans a member</td>
+                <td><mark>?Ban < mention ></mark></td>
+            </tr>
+            <!-- unBan mod-->
+            <tr>
+                <td>Unban</td>
+                <td>Unbans a member</td>
+                <td><mark>?Ban < mention(ID) > < reason ></mark></td>
+            </tr>
+            <!-- slowmode mod-->
+            <tr>
+                <td>Slowmode</td>
+                <td>Changes the slowmode of a channel</td>
+                <td><mark>?slowmode < amount > < channel ></mark></td>
+            </tr>
+            <!-- cases mod-->
+            <tr>
+                <td>Cases</td>
+                <td>Shows the cases for a user</td>
+                <td><mark>?cases < ID/mention ></mark></td>
+            </tr>
+            <!-- cases mod-->
+            <tr>
+                <td>Reset cases</td>
+                <td>Resets the cases for a user</td>
+                <td><mark>?resetcases < mention ></mark></td>
+            </tr>
+            <!-- cases mod-->
+            <tr>
+                <td>Reset Leaderboard</td>
+                <td>Resets the server leaderboard</td>
+                <td><mark>?resetleaderboard</mark></td>
+            </tr>
+            <tr>
+                <th colspan="3">Music Commands</th>
+            </tr>
+            <!-- Play music-->
+            <tr>
+                <td>Play Music</td>
+                <td>Plays a youtube song</td>
+                <td><mark>?music play < link ></mark></td>
+            </tr>
+            <!-- Skip music-->
+            <tr>
+                <td>Skip Music</td>
+                <td>Skips to the next song in the queue if there are no songs leaves</td>
+                <td><mark>?music skip</mark></td>
+            </tr>
+            <!-- Stop music-->
+            <tr>
+                <td>Stop Music</td>
+                <td>Stops playing music and leaves tha channel</td>
+                <td><mark>?music stop</mark></td>
+            </tr>
+            <tr>
+                <th colspan="3">Settings Commands</th>
+            </tr>
+            <!-- Logs settings-->
+            <tr>
+                <td>Logs</td>
+                <td>To enable logs create a channel named "logs" to disable them, delete that channel</td>
+                <td><mark>none</mark></td>
+            </tr>
+            <!-- Music settings-->
+            <tr>
+                <td>Music</td>
+                <td>Enable or disable music in the server</td>
+                <td><mark>?settings MusicBool < 1(active)/0(inactive) ></mark></td>
+            </tr>
+            <!-- Math settings-->
+            <tr>
+                <td>Math</td>
+                <td>Enable or disable Math in the server</td>
+                <td><mark>?settings MathBool < 1(active)/0(inactive) ></mark></td>
+            </tr>
+            <!-- Reddit settings-->
+            <tr>
+                <td>Reddit</td>
+                <td>Enable or disable reddit in the server</td>
+                <td><mark>?settings RedditBool < 1(active)/0(inactive) ></mark></td>
+            </tr>
+            <!-- Levels settings-->
+            <tr>
+                <td>Levels</td>
+                <td>Enable or disable the level system in the server</td>
+                <td><mark>?settings LevelsBool  < 1(active)/0(inactive) ></mark></td>
+            </tr>
+            <!-- view settings-->
+            <tr>
+                <td>View settings</td>
+                <td>Look at your current settings</td>
+                <td><mark>?view-settings</mark></td>
+            </tr>
+            <tr>
+                <th colspan="3">Usefull Info</th>
+            </tr>
+            <!-- info -->
+            <tr>
+                <td colspan="3">all the settings tweaks take one message to make effect. </td>
+            </tr>
+            <tr>
+                <td colspan="3">the level system does't impact leaderboard. <br> the level system is programmed to be 1 levels every 1k messages to make the leveling more consistent</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

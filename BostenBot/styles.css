@@ -1,0 +1,92 @@
+.topbar {
+    overflow: hidden;
+    background-color: #04032c;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Full width */
+}
+.topbar a{
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    float: left;
+    display: block;
+    color: #3058af;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: #0d08e3;
+}
+.topbar a:hover {
+    color: aliceblue;
+    background-color: #0d08e3;
+}
+.Bostenbot{
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size:100px;
+    font-family: "Trebuchet MS";
+    color: rgb(14, 72, 162);
+    animation: fade-inleft linear 1s;
+    text-shadow:
+            0 0 10px rgb(14, 72, 162),
+            0 0 10px rgb(14, 72, 162),
+            0 0 110px rgb(14, 72, 162)
+}
+@keyframes fade-inleft {
+    0%{opacity: 0}
+    100%{opacity: 100}
+}
+.Bostenbot2{
+    display: block;
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+    color: #0d08e3;
+    animation: fade-inleft linear 1s;
+
+}
+.image{
+    border-radius: 8px;
+}
+.TextMin{
+    display: inline;
+    padding-left: 500px;
+    font-family: "Trebuchet MS";
+    padding-top: 10px;
+    font-size: 20px;
+    color: #0d08e3;
+}
+.table{
+    font-family: "Trebuchet MS";
+    color: #3058af;
+    font-size: 50px;
+    padding-top: 100px;
+    border: 3px solid #3058af;
+    border-collapse: collapse;
+}
+.table tr, td{
+    font-family: "Trebuchet MS";
+    padding: 1%;
+    color: #3058af;
+    font-size: 19px;
+    border: 3px solid #3058af;
+}
+.table th{
+    font-family: "Trebuchet MS";
+    padding: 10px 40px;
+    color: #3058af;
+    font-size: 40px;
+    border: 3px solid #3058af;
+}
+mark{
+    background-color: #282828;
+}
+.inviteButton{
+    background-color: #39c259;
+    border-radius: 8px;
+    border-color: black;
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: #d20c0c;
+}
